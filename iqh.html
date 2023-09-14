@@ -10,21 +10,40 @@
     <title>Afnan Hajj Kafela</title>
 </head>
 <body>
-    <main>
-        <section>
-            <div class="navbar bg-neutral text-neutral-content d-flex justify-between">
-                <div class="w-20 h-15 ml-8">
-                    <img src="images/logo.png" alt="">
+    <main> 
 
+        <section>
+            <div class="navbar  bg-neutral text-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-neutral rounded-box w-52">
+                        <li class="text-xl"><a href="#home">Home</a></li>
+                        <li class="text-xl"><a href="#Offer">Offer</a></li>
+                        <li class="text-xl"><a href="#package">Package</a></li>
+                        <li class="text-xl"><a href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost normal-case text-xl ">Afnan Hajj Kafela</a>
                 </div>
-                <div class="mr-20 text-xl">
-                    <a class="link link-hover hover:text-violet-600 mr-10" href="#home">Home</a>
-                    <a class=" link link-hover hover:text-violet-600 mr-10"  href="">About</a>
-                    <a class="link link-hover hover:text-violet-600 mr-10  " href="">Packege</a>
-                    <a class="link link-hover hover:text-violet-600 mr-10"href="">Contact</a>
+                <div class="navbar-center hidden lg:flex ">
+                  <ul class="menu menu-horizontal px-1 text-2xl">
+                    <li class="text-xl"><a href="#home">Home</a></li>
+                    <li class="text-xl"><a href="#Offer">Offer</a></li>
+                    <li class="text-xl"><a href="#package">Package</a></li>
+                    <li class="text-xl"><a href="#contact">Contackt</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <div class="w-20 h-15 mr-6">
+                    <img src="images/logo.png" alt="">
+                </div>
                 </div>
               </div>
         </section>
+      <!-- ----Banner---///// -->
         <section>
             <div class="m-20 ">
              <div class="hero min-h-screen m-auto rounded-2xl " style="background-image: url(https://w0.peakpx.com/wallpaper/610/934/HD-wallpaper-crowded-mecca-during-evening-time-ramzan.jpg);">
@@ -40,7 +59,11 @@
 </div>
             </div>
         </section>
-        <section class="m-20">
+
+        <!----------- Home -------------->
+
+
+        <section class="m-20" id="home">
             <div class="grid grid-cols-1 md:grid-cols-5 bg-purple-300 p-6 rounded-2xl">
                 <div>
                     <div class="border-2  rounded-full h-40 w-40  lg:ml-20">
@@ -85,7 +108,11 @@
                 
             </div>
         </section>
-        <section class="ml-20 mr-20 mb-20 #home">
+
+        
+        <!-- offer--????--- -->
+
+        <section class="ml-20 mr-20 mb-20" id="Offer">
             <h1 class="text-8xl font-bold mb-10">Our Offer</h1>
             <div class="grid gap-4 grid-cols-1 md:grid-cols-2  ">
                 <div class="card w-100 bg-base-140 shadow-xl">
@@ -110,54 +137,52 @@
                   </div>
             </div>
         </section>
-        <section class="m-20 ">
-            <h1 class="text-8xl font-bold mb-10" >package</h1>
-        <div>
-         <div class=" rounded-2xl bg-purple-200 p-10">
-                <div class=" m-20">
-                    <h1 class="text-4xl font-bold mb-5 text-center">আগামী নভম্বর মাসের প্রথম সপ্তাহে আমাদের ওমরাহ এর গ্রুপ পবিত্র মক্কা এর উদ্দেশ্যে রওয়ানা হচ্ছে ইনশাআল্লাহ।
-                        </h1>
-                    <h1 class="text-3xl font-bold mb-5 text-center">আপনিও হতে পারেন আমাদের ওমরাহ এর সহযাত্রী।</h1>
-                  <div>
-                    <br>
-                    <br>
-                    <br>
+        
+        <!--////// package //////-->
 
-                    <span class=" text-5xl  font-bold text-end bg-rose-500 p-10 ml-80 rounded-2xl ">প্যাকেজ মুল্য ১,৩৫০০০ টাকা মাত্র।</span>
-                  </div>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                
-                    <div><span class="text-3xl font-bold  mt-10 p-4 ml-80 bg-purple-500 rounded-2xl"> ওমরাহ হজ্জের প্যাকেজ আওতাভুক্ত</span></div>
-                   <br>
-                   <br>
-                   
-                   <div class="grid grid-cols-1 md:grid-cols-2">
-                   <div class="text-rose-600 font-semibold">
-                        <h4 class="text-2xl m-5" >🟡 ৩ মাস মেয়াদী ওমরাহ ভিসা।</h4>
-                        <h4 class="text-2xl m-5" >🟡 ১৪ দিনের প্যাকেজ।</h4>
-                        <h4 class="text-2xl m-5" >🟡 সরাসরি ফ্লাইটে রিটার্নসহ এয়ার টিকেট।</h4>
-                        <h4 class="text-2xl m-5" >🟡 মক্কা ৩ স্টার ও মদীনায় ৪ স্টার মনের আবাসস্থল।</h4>
-                        <h4 class="text-2xl m-5" >🟡 এয়ারপোর্ট থেকে আনা নেওয়ার যাতায়াত সুবিধা।</h4>
-                        <h4 class="text-2xl m-5" >🟡 মক্কা ও মদিনায় ইসলামিক গুরুত্তপূর্ণ স্থাপনা জিয়ারাহ।</h4>
-                        <h4 class="text-2xl m-5" >🟡 প্রতি রুমে আবাসন ব্যবস্থা ৪/৫ জন।</h4>
-                   </div>
-                    <div class="text-rose-600 font-semibold">
-                        <h4 class="text-2xl m-5" >🟡 আলোচনা সাপেক্ষে ক্যাপল রুমের ব্যবস্থা।</h4>
-                        <h4 class="text-2xl m-5" >🟡 তায়েফ ও জেদ্দা আরব সাগর ভ্রমণ (আলোচনা সাপেক্ষে)।</h4>
-                        <h4 class="text-2xl m-5" >🟡 নিজস্ব ব্যবস্থাপায় ৩ বেলা সুস্বাদু খাবারের সুব্যবস্থা ( জনপ্রতি ১০,০০০)</h4>
-                        <h4 class="text-2xl m-5" >🟡 অভিজ্ঞ মোয়াল্লিমের মাধ্যমে ট্রেনিং এর সুব্যবস্থা ।</h4>
-                        <h4 class="text-2xl m-5" >🟡 আল্লাহর ঘরের মেহমানদের জন্য রয়েছে বিশেষ উপহারের ব্যাবস্থা।</h4>
-                        <h4 class="text-2xl m-5" >🟡 অভিজ্ঞ মোয়াল্লিমের মাধ্যমে ওমরাহর যাবতীয় আনুষ্ঠানিকতা সম্পন্ন করতে সহায়তা প্রদান।</h4>
-                    </div>
-                   </div>
+
+    <section class="m-20 " id="package">
+    <h1 class="text-8xl font-bold mb-10" >Package</h1>
+    <div class=" rounded-2xl bg-purple-200 p-10">
+        <div>
+            <h1 class="text-4xl font-bold mb-5 text-center">আগামী নভম্বর মাসের প্রথম সপ্তাহে আমাদের ওমরাহ এর গ্রুপ পবিত্র মক্কা এর উদ্দেশ্যে রওয়ানা হচ্ছে ইনশাআল্লাহ।
+            </h1>
+            <h1 class="text-3xl font-bold mb-6 text-center">আপনিও হতে পারেন আমাদের ওমরাহ এর সহযাত্রী।</h1>
+        </div>
+           <div>
+                <div >
+                    <p class="lg:ml-60 lg:mr-60  lg:text-5xl  font-bold bg-rose-500 p-10 text-center rounded-2xl ">প্যাকেজ মুল্য ১,৩৫০০০ টাকা মাত্র।
+                    </p>
                 </div>
+           </div>
+           <div class="m-20">
+                   <p class="lg:text-3xl font-bold text-center lg:ml-80 lg:mr-80 p-6 bg-purple-500 rounded-2xl">ওমরাহ হজ্জের প্যাকেজ আওতাভুক্ত</p>
+           </div>
+           <div class="grid grid-cols-1 md:grid-cols-2 mt-20">
+            <div class="text-rose-600 font-semibold">
+                    <h4 class="text-2xl m-5" >🟡 ৩ মাস মেয়াদী ওমরাহ ভিসা।</h4>
+                    <h4 class="text-2xl m-5" >🟡 ১৪ দিনের প্যাকেজ।</h4>
+                    <h4 class="text-2xl m-5" >🟡 সরাসরি ফ্লাইটে রিটার্নসহ এয়ার টিকেট।</h4>
+                    <h4 class="text-2xl m-5" >🟡 মক্কায় ৩ স্টার ও মদীনায় ৪ স্টার মনের আবাসস্থল।</h4>
+                    <h4 class="text-2xl m-5" >🟡 এয়ারপোর্ট থেকে আনা নেওয়ার যাতায়াত সুবিধা।</h4>
+                    <h4 class="text-2xl m-5" >🟡 মক্কা ও মদিনায় ইসলামিক গুরুত্তপূর্ণ স্থাপনা জিয়ারাহ।</h4>
+                    <h4 class="text-2xl m-5" >🟡 প্রতি রুমে আবাসন ব্যবস্থা ৪-৫ জন।</h4>
+            </div>
+            <div class="text-rose-600 font-semibold">
+                <h4 class="text-2xl m-5" >🟡 আলোচনা সাপেক্ষে ক্যাপল রুমের ব্যবস্থা।</h4>
+                <h4 class="text-2xl m-5" >🟡 তায়েফ ও জেদ্দা আরব সাগর ভ্রমণ (আলোচনা সাপেক্ষে)।</h4>
+                <h4 class="text-2xl m-5" >🟡 নিজস্ব ব্যবস্থাপায় ৩ বেলা সুস্বাদু খাবারের সুব্যবস্থা ( জনপ্রতি ১০,০০০)</h4>
+                <h4 class="text-2xl m-5" >🟡 অভিজ্ঞ মোয়াল্লিমের মাধ্যমে ট্রেনিং এর সুব্যবস্থা ।</h4>
+                <h4 class="text-2xl m-5" >🟡 আল্লাহর ঘরের মেহমানদের জন্য রয়েছে বিশেষ উপহারের ব্যাবস্থা।</h4>
+                <h4 class="text-2xl m-5" >🟡 অভিজ্ঞ মোয়াল্লিমের মাধ্যমে ওমরাহর যাবতীয় আনুষ্ঠানিকতা সম্পন্ন করতে সহায়তা প্রদান।</h4>
+                </div>
+            </div>
         </div>
     </section>
-        <section class="lg:m-20">
+
+
+    <!-- contact -->
+        <section class="lg:m-20" id="contact">
            <h1 class="text-8xl font-bold ">Contact</h1>
            <div>
             <div class=" ">
